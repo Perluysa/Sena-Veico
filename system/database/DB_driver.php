@@ -1,4 +1,7 @@
 <?php
+#[\AllowDynamicProperties]
+
+abstract class CI_DB_driver {
 /**
  * CodeIgniter
  *
