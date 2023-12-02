@@ -1,4 +1,7 @@
 <?php
+#[\AllowDynamicProperties]
+
+class CI_URI {
 /**
  * CodeIgniter
  *
