@@ -72,7 +72,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = "http://" . $_SERVER['HTTP_HOST'];
+$config['base_url'] = "http://veicotools.azurewebsites.net" . $_SERVER['HTTP_HOST'];
 $config['base_url'] .= preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])) . '/';
 /*
 |--------------------------------------------------------------------------
